@@ -149,6 +149,17 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    max-width: 80%;
+}
+
+.contacto p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 100%;
+    max-width: 80%;
 }
 
 
@@ -159,11 +170,18 @@
     align-items: center;
     font-size: 30px;
     width: 100%;
+    max-width: 80%;
 }
 
 .container-bottom-footer {
     flex-direction: column;
     justify-content: center;
+}
+
+.bottom-redes {
+    flex-direction: row;
+    justify-content: center;
+    gap:inherit;
 }
 
 }
