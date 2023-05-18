@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="./assents/styles.css">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Mediaqueries -->
+    <link rel="stylesheet" href="./assents/mediaqueries.css">
 </head>
 <body>
     <header class="header">
@@ -18,13 +20,18 @@
             <a href="#"><img src="./assents/img/logo-de-e2.png" alt="logo CEA"></a>
         </div>
             <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assents/img/menu 2.png" alt="menu-icono">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
                 <ul class="navbar-list">
                     <li>
                         <a href="#">Sobre Nosotros</a></li>
                     <li>
-                        <a href="#">Clientes</a></li>
+                        <a href="#">Merch</a></li>
                     <li>
-                        <a href="#">Servicios</a></li>
+                        <a href="#">Tienda</a></li>
                     <li>
                         <a href="#">Contáctanos</a></li>
                 </ul>
@@ -37,7 +44,7 @@
             <div class="hero-info">
                 <h1> Adéntrate en el mejor lugar de Venta de Videojuegos</h1>
                 <p><span>CEA</span> , tiene como objetivo ofrecer los mejores juegos con los mejores precios, nos enfocamos en tener los últimos juegos para nuestros usuarios, tambien tenemos merchandising exclusivo con juegos seleccionados.</p>
-                <ul class="hero-button">
+                <ul class="hero-buttom">
                     <a href="#">Ofertas exclusivas</a>
                     <a href="#">Saber más</a>
                 </ul>
@@ -50,10 +57,69 @@
         <!-- Info -->
         <section id="info">
             <div>
-                <h2>Hoy en día contamos con, 5 tiendas físicas en Belgrano,Liniers,Flores,Ramos Mejía y Merlo. Atendemos de Lun a Sab de  10 a 18hs, hacemos envíos a todo el país. En nuestra tienda online vas a encontrar todas la plataformas de Videojuegos. <span>!Que estas esperando para ver!🔥</span></h2>
+                <h2>Estamos armandos grandes cosas con todo el avance que hay en ventas, NFTs, merch y juegos, cada dia conseguimos el objetivo que satisfacer las necesidades de nuestra clientela.<span>!Que estas esperando para ver!🔥</span></h2>
             </div>
         </section>
 
+        <!-- Cajas -->
+        <section id="info-cajas">
+            <div class="info-cajas-container">
+                <div class="cajas">
+                    <a href="#">
+                        <img src="./assents/img/ordenador-personal.png" alt="steam-card">
+                    </a>
+                    <h3>Plataformas de PC 👈</h3>
+                    <p>Aca vas a encontrar los juegos de Epic games, Steam, Origin, Ubisoft y muchos mas; ademas, los juegos vienen con un paquete de skins, DLCs, incluidos en juegos seleccionados.</p>
+
+                </div>
+                <div class="cajas">
+                    <a href="#">
+                        <img src="./assents/img/consola-de-juego.png" alt="epic-card">
+                    </a>
+                    <h3>Juegos de Consola 👈</h3>
+                    <p>Preparados tantos fisicos con envios gratis, como digitales desde la comodidad de tu casa, PSN, Xbox y Nintendo Switch.</p>
+                </div>
+                <div class="cajas">
+                    <a href="#">
+                        <img src="./assents/img/palanca-de-mando.png" alt="origin-card">
+                    </a>
+                    <h3>Retro games😉</h3>
+                    <p>Que pensabas que no ibamos a tener los juegos que nos enseñaron el mundo gamer de hoy en dia... Aca no solo vendemos juegos unicos, sino que vas a tener un abanico de juegos gratuitos retro para vos, solo con ser cliente. !Como la ves¡</p>
+                </div>
+
+            </div>
+        </section>
+    <hr />
     </main>
+
+    <footer class="contacto-footer">
+            <div class="contacto-container">
+                <div class="contacto">
+                    <h2>Contacto</h2>
+                        <p>Amaya, Ezequiel<p/>
+                            <ul>
+                                <li>
+                                <li>🪂 Calle Av. Gral San Martin 777</li>
+                                <li>📧 shankarios95@hotmail.com</li>
+                                <li>📞 1127857988</li>
+                            </ul>
+                        </div>
+                <img src="./assents/img/pexels-tima-miroshnichenko-7046976.jpg" alt="">
+            </div>
+        <hr class="separador-footer">
+        <div class="container-bottom-footer">
+            <div class="bottom-logo">
+                <a class="logo-footer" href="#">CEA</a>
+                <p class="parrafo-footer">© Derechos reservados, uso exclusivo para Nucba.</p>
+            </div>
+            <div class="bottom-redes">
+                <a class="social" href="#"><img class="imagen" src="./assents/img/youtube.png" alt="YT"></a>
+                <a class="social" href="#"><img class="imagen" src="./assents/img/facebook.png" alt="FB"></a>
+                <a class="social" href="#"><img class="imagen" src="./assents/img/tik-tok.png" alt="TK"></a>
+                <a class="social" href="#"><img class="imagen" src="./assents/img/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

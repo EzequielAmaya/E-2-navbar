@@ -1,0 +1,169 @@
+/* tablet */
+@media (max-width: 992px) {
+.navbar {
+        gap: 10px;
+    }
+
+
+.navbar-list {
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    background-color: #43cea2;
+    border: 2px solid #14487d;
+    border-top: none;
+    border-radius: 0px 0px 15px 15px;
+    align-items:center;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+}
+
+.navbar-list a {
+    font-size: 25px;
+}
+
+.menu-label {
+    display:flex;
+    order: 2;
+    cursor: pointer;
+}
+
+.menu-label img {
+    height: 40px;
+    width: 40px;
+}
+
+#menu-toggle:checked + .navbar-list {
+    display: flex;
+}
+
+.hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+.hero-info h1 {
+    width: 90%;
+    max-width: 500px;
+    min-width: unset;
+    text-align: center;
+}
+
+.hero-info p {
+    width: 60%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.hero-img {
+    display: none;
+}
+
+#info h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.cajas {
+    max-width: 80%;
+}
+
+.contacto {
+    text-align: center;
+    width: 80%;
+
+}
+
+.contacto-container img {
+    display: none;
+}
+
+.container-bottom-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
+
+/* "Celu" */
+
+@media (max-width: 576px) {
+
+.hero-info h1 {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        width: 100%;
+        max-width: 500px;
+}
+
+.hero-info p {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.hero-info p > span {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    max-width: 500px;
+    font-size: 50px;
+}
+
+#info h2 {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column-reverse;
+    width: 100%;
+    max-width: 500px;
+}
+
+#info {
+    padding: unset;
+}
+
+
+.cajas {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+
+.contacto-container h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.contacto li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.container-bottom-footer {
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
