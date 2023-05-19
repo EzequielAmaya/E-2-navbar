@@ -7,6 +7,10 @@
     text-decoration:none;
 }
 
+body {
+    width: 100%;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -292,8 +296,8 @@ hr {
 }
 
 .social img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     padding: 20px;
 }
 
